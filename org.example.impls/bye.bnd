@@ -1,0 +1,3 @@
+Private-Package: org.example.bye
+Service-Component: *
+Bundle-Version: 1.0.0

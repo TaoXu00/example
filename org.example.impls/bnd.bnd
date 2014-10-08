@@ -1,0 +1,10 @@
+-buildpath: org.example.api;version=latest,\
+	biz.aQute.bnd.annotation,\
+	junit.osgi,\
+	org.apache.felix.gogo.runtime
+-sub: *.bnd
+
+Bundle-Copyright: Copyright Ghent University - iMinds (c) 2014
+Bundle-License: BSD New (http://opensource.org/licenses/BSD-3-Clause)
+Bundle-DocURL: http://aiolos.intec.ugent.be
+-includeresource: ../LICENSE.txt

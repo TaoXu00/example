@@ -1,0 +1,12 @@
+Bundle-Activator: org.example.servlet.Activator
+Private-Package: org.example.servlet
+-buildpath: org.apache.felix.http.jetty,\
+	osgi.enterprise;version=5.0.0.201203141834,\
+	osgi.core;version=5.0.0,\
+	org.example.api;version=latest
+Bundle-Version: 1.0.0
+
+Bundle-Copyright: Copyright Ghent University - iMinds (c) 2014
+Bundle-License: BSD New (http://opensource.org/licenses/BSD-3-Clause)
+Bundle-DocURL: http://aiolos.intec.ugent.be
+-includeresource: ../LICENSE.txt

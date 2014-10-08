@@ -1,0 +1,3 @@
+Private-Package: org.example.hello
+Service-Component: *
+Bundle-Version: 1.0.0

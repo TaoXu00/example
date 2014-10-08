@@ -1,0 +1,19 @@
+-runfw: org.apache.felix.framework;version='[4.2.1,4.2.1]'
+-runee: JavaSE-1.6
+
+
+-resolve.effective: active
+-runproperties: name=
+-runbundles: osgi.enterprise;version='[5.0.0,5.1.0)',\
+	org.apache.felix.gogo.command;version='[0.12.0,0.12.1)',\
+	org.apache.felix.gogo.runtime;version='[0.10.0,0.10.1)',\
+	org.apache.felix.gogo.shell;version='[0.10.0,0.10.1)',\
+	org.apache.felix.log;version='[1.0.1,1.0.2)',\
+	kxml,\
+	org.apache.felix.scr;version='[1.6.2,1.6.3)',\
+	org.example.api;version=latest,\
+	org.example.impls.command;version=latest,\
+	org.example.impls.hello;version=latest,\
+	org.example.impls.bye;version=latest,\
+
+

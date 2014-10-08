@@ -1,0 +1,26 @@
+#-runfw: org.apache.felix.framework;version='[4,5)'
+-runfw: org.eclipse.concierge
+-runee: OSGi/Minimum-1.2
+
+aiolos.version='[0.4.0,0.5.0)'
+
+-runbundles: osgi.enterprise;version='[5.0.0,5.1.0)',\
+	org.apache.felix.scr,\
+	be.iminds.androsgi.log,\
+	jslp,\
+	objectprofiler,\
+	org.objenesis,\
+	com.esotericsoftware.kryo,\
+	de.javakaffee.kryo-serializers,\
+	be.iminds.aiolos.api;version=${aiolos.version},\
+	be.iminds.aiolos.discovery;version=${aiolos.version},\
+	be.iminds.aiolos.topologymanager;version=${aiolos.version},\
+	be.iminds.aiolos.remoteserviceadmin;version=${aiolos.version},\
+	be.iminds.aiolos.deploymentmanager;version=${aiolos.version},\
+	be.iminds.aiolos.servicemonitor;version=${aiolos.version},\
+	be.iminds.aiolos.nodemonitor;version=${aiolos.version},\
+	be.iminds.aiolos.proxymanager;version=${aiolos.version},\
+	org.example.api;version=latest
+	
+
+-runsystempackages: org.kxml2.io,org.xmlpull.v1

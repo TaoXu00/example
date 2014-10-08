@@ -1,0 +1,8 @@
+-buildpath: osgi.core;version=5.0,\
+	org.example.api;version=latest,\
+	be.iminds.androsgi.util
+	
+Bundle-Copyright: Copyright Ghent University - iMinds (c) 2014
+Bundle-License: BSD New (http://opensource.org/licenses/BSD-3-Clause)
+Bundle-DocURL: http://aiolos.intec.ugent.be
+-includeresource: ../LICENSE.txt
