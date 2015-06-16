@@ -2,7 +2,7 @@
 -runfw: org.eclipse.concierge
 -runee: OSGi/Minimum-1.2
 
-aiolos.version='[0.4.0,0.5.0)'
+aiolos.version='[0.5.0,0.6.0)'
 
 -runbundles: osgi.enterprise;version='[5.0.0,5.1.0)',\
 	org.apache.felix.scr,\
